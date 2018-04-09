@@ -164,7 +164,7 @@
 mainPlane.addAttribute( 'position', new THREE.BufferAttribute( vertices, 3 ) );
 var mainMaterial = new THREE.MeshBasicMaterial( { color: 0xff0000 } );
 var mainMesh = new THREE.Mesh( mainPlane, mainMaterial );
-mainMesh.rotation.x=30;
+mainMesh.rotation.x = 30;
 scene.add(mainMesh);
 			
 			
